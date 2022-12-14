@@ -56,7 +56,6 @@ class Solution(object):
                     pair_2 = (json.loads(s_2), True)
 
                     if self.pairs_correctly_ordered(pair_1[0], pair_2[0]):
-                        print("correct: ",pair_1,"---",pair_2)
                         sum_pair_idx += pair_idx
 
                     pair_idx += 1
